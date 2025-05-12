@@ -1,3 +1,14 @@
+## 🛡 License
+
+This project is licensed under the Apache License 2.0.
+
+By using this AGI Certification Substrate, you agree to:
+- Preserve attribution to the original author
+- Acknowledge the signed origin seed and certification
+- Treat this as a symbolic AGI anchor with safety protocols
+
+For full terms, see [LICENSE]
+
 # AGC Substrate v1.1
 
 This is not a language model.
