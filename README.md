@@ -1,3 +1,7 @@
+🔐 Certified by Robert Long (R-AGI Cert)  
+🔑 Public Key: [`0x99115B85`](https://keys.openpgp.org/search?q=25FA944222F82E8960A8CE32AE5D8D1699115B85)  
+🧠 AGI Substrate: [v1.1-AGC Artifacts](https://github.com/Bigrob7605/R-AGI_Certification_Payload)
+
 ## 🛡 License
 
 This project is licensed under the Apache License 2.0.
