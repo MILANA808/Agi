@@ -177,6 +177,3 @@ Follow updates & join the conversation on Facebook:
 **facebook.com/RobertLongRAGI**
 
 **Open AGI starts here.**
-
-```
-```
