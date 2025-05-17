@@ -1,5 +1,3 @@
-Here’s the fully updated **README.md**, including the missing **requirements.txt**, an **artifacts/** directory reference, and your Facebook link—all in three levels of detail:
-
 ````markdown
 # 🧠 R-AGI Certification Payload · v1.1-AGC
 
