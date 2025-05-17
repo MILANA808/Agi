@@ -208,7 +208,7 @@ We’re **not** gatekeeping AGI—fork, test, audit, and **pass the torch**.
 ## 📣 Connect
 
 Follow updates & join the conversation on Facebook:
-**[https://facebook.com/RobertLongRAGI](https://www.facebook.com/SillyDaddy7605)**
+**[https://facebook.com/RobertLongRAGI](https://www.facebook.com/SillyDaddy7605)](https://www.facebook.com/SillyDaddy7605)**
 
 **Open AGI starts here.**
 
