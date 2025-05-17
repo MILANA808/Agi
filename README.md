@@ -1,9 +1,3 @@
-Here’s a fully polished, drop-in **README.md**. It:
-
-* Includes correct Facebook link
-* Covers packaging scripts, 3 user-levels, architecture, RIL, self-verification, and next steps
-* Mentions `requirements.txt` and makes it crystal clear
-
 ````markdown
 # 🧠 R-AGI Certification Payload · v1.1-AGC
 
