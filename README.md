@@ -27,8 +27,7 @@ Browse the full spec ➜ [`MMH_White_Paper___v2_0_Stable.pdf`](./artifacts/MMH_W
 | Metric            | Status                                                                                              |
 | ----------------- | --------------------------------------------------------------------------------------------------- |
 | Installs verified | **2/2** (scripted + manual)                                                                         |
-| CI build          | ![CI](https://github.com/Bigrob7605/R-AGI_Certification_Payload/actions/workflows/ci.yml/badge.svg) |
-| Team              | Robert Long ✚ Kai (nights/weekends)                                                                 |
+| Team              | Robert Long ✚ Kai (nights/weekends) And a few others helping test this I have yet to mention       |
 
 📬 Need help? Open a GitHub issue or DM **@Robert Long** on Facebook.
 
