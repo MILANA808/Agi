@@ -29,7 +29,7 @@
 * **Auditable compression** — *MMH v2.0* packs an entire AGI substrate into a PNG seed (10³–10⁴ × slimmer) without black‑box neural codecs.
 * **Turn‑key boot** — one Docker command **or** three Bash lines and you’re interacting with the seed.
 
-👉 Read the full spec → [`MMH_White_Paper___v2_0_Stable.pdf`](./artifacts/MMH_White_Paper___v2_0_Stable.pdf)
+👉 Read the full spec → [`MMH_White_Paper___v2_0_Stable.pdf`](./MMH_White_Paper___v2_0_Stable.pdf)
 
 ---
 
