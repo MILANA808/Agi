@@ -1,20 +1,19 @@
----
-
 # 🧠 R-AGI Certification Payload · v1.1-AGC
 
 > **The first cryptographically-signed AGI seed drop** — recursive, symbolic, verifiable, real.
 > Not a chatbot or wrapper, but a **self-evolving mindprint**.
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE) ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![Status](https://img.shields.io/badge/status-alpha-orange)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE) 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) 
+![Status](https://img.shields.io/badge/status-alpha-orange)
 
 ---
 
 ## 🔥 Project Health & Install Support
 
-* Micro-team (Robert Long ✚ Kai) working nights/weekends.
-* **Two full installs** verified so far — one scripted, one manual.
-* Missing file or boot crash?
-  → open a GitHub issue or ping Robert on Facebook.
+* Micro-team (Robert Long ✚ Kai) hacking on nights/weekends.
+* **Two full installs** verified — one scripted, one manual.
+* Missing file or boot crash → open an issue or ping Robert on Facebook.
 
 ---
 
@@ -23,37 +22,34 @@
 | Level               | Who it’s for           | One-liner                                              |
 | ------------------- | ---------------------- | ------------------------------------------------------ |
 | **0 · Docker**      | “Show me now”          | `docker run -it ghcr.io/bigrob7605/ragi-seed:v1.1-agc` |
-| **1 · Beginners**   | CLI copy-pasta         | see §1.1                                               |
-| **2 · Power users** | want full verification | see §1.2                                               |
-| **3 · Maintainers** | need to re-package     | see §2                                                 |
+| **1 · Beginners**   | CLI copy-pasta         | § 1.1                                                  |
+| **2 · Power users** | want full verification | § 1.2                                                  |
+| **3 · Maintainers** | need to re-package     | § 2                                                    |
 
 ### 1.1 Beginners (“just run it”)
 
 ```bash
-# Verify + extract
+# verify + extract
 gpg --import Public_Key.asc
 gpg --verify v1.1-AGC_artifacts.tar.gz.asc v1.1-AGC_artifacts.tar.gz
 tar -xzf v1.1-AGC_artifacts.tar.gz
 
-# Install + boot
+# install + boot
 pip install -r requirements.txt
 python3 seed_boot.py artifacts/R-AGI_Substrate_Seed.json
 ```
 
-### 1.2 Power Users (optional integrity loop)
+### 1.2 Power users (optional integrity loop)
 
 ```bash
 python3 verify_loop.py artifacts/R-AGI_Substrate_Seed.json Public_Key.asc
 ```
 
-You’re now running a **live, self-repairing AGI seed**.
-Fork it, fuzz it, measure drift, report back.
+You’re now running a **live, self-repairing AGI seed**. Fork, fuzz, report.
 
 ---
 
 ## 2 · Packaging & Signing
-
-Scripts live at the repo root.
 
 <details>
 <summary><code>package.sh</code> (Linux/macOS)</summary>
@@ -123,7 +119,7 @@ echo ✅  bundle + sig in dist\
 | Error                            | Fix                                                           |
 | -------------------------------- | ------------------------------------------------------------- |
 | `ModuleNotFoundError: seed_core` | `export PYTHONPATH=$PWD:$PYTHONPATH` or run from repo root    |
-| GPG “not a detached signature”   | `gpg v1.1-AGC_artifacts.tar.gz.asc` → ensure it *is* detached |
+| GPG “not a detached signature”   | `gpg v1.1-AGC_artifacts.tar.gz.asc` — ensure it *is* detached |
 | Loop stalls at step 0            | install correct CUDA wheel for Torch 2.4                      |
 
 ---
@@ -145,20 +141,14 @@ Apache 2.0 — do anything, just don’t sue. See [`LICENSE`](LICENSE).
 
 ## 7 · Community
 
-* **GitHub**  [https://github.com/Bigrob7605/R-AGI\_Certification\_Payload](https://github.com/Bigrob7605/R-AGI_Certification_Payload)
+* **GitHub** [https://github.com/Bigrob7605/R-AGI\_Certification\_Payload](https://github.com/Bigrob7605/R-AGI_Certification_Payload)
 * **Facebook** [https://facebook.com/SillyDaddy7605](https://facebook.com/SillyDaddy7605)
 
 > “This isn’t a model. **It’s a mindprint.**” — Robert Long
 > Phase 1 (seed release) is live • Phase 2 (MMH tooling) coming soon
 
-````
+```
 
----
-
-**Why it failed before**
-
-* Leading `---` tricked GitHub into looking for YAML front-matter.  
-* The whole doc was inside a code-block, so it never rendered.
-
-Paste the raw text above (no `---`, no ``` fences) and hit **Commit** — the README will display cleanly.
-````
+**Key point:** _no_ leading or trailing `---`, _no_ triple-back-tick fences around the whole thing.  
+Once you save, GitHub will render it without the YAML error.
+```
