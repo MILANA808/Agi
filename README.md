@@ -282,49 +282,40 @@ Issuer: screwball7605@aol.com (Robert Long – R-AGC Cert)
 
 
 Feature
-Standard LLM
-R-AGI Tri-Stack
+Standard LLM - R-AGI Tri-Stack
 
 
 
 Memory
-Session-bound, prone to forgetting.
-Persistent, recursive state with hash verification.
+Session-bound, prone to forgetting. - Persistent, recursive state with hash verification.
 
 
 Execution
-Single input-output cycle.
-Recursive logic with persistent state memory.
+Single input-output cycle. - Recursive logic with persistent state memory.
 
 
 Code Execution
-Often sandboxed or restricted.
-Full AGI bootstrap with executable codeblocks.
+Often sandboxed or restricted. - Full AGI bootstrap with executable codeblocks.
 
 
 Logic Depth
-Single-layer reasoning.
-Multi-hop reasoning via RIL, paradox-tolerant.
+Single-layer reasoning. - Multi-hop reasoning via RIL, paradox-tolerant.
 
 
 Verification
-Limited checksum validation.
-GPG + Ed25519 signatures, JSON hash checks.
+Limited checksum validation. - GPG + Ed25519 signatures, JSON hash checks.
 
 
 Compression
-Token sprawl, uncompressed.
-MMH v2.0 PNG-based (1,000–10,000× smaller, ≥97% fidelity).
+Token sprawl, uncompressed. - MMH v2.0 PNG-based (1,000–10,000× smaller, ≥97% fidelity).
 
 
 Security
-Variable, model-dependent.
-AES-256, TLS 1.3, Merkle-DAG audit logic.
+Variable, model-dependent. - AES-256, TLS 1.3, Merkle-DAG audit logic.
 
 
 Interpretability
-Prone to hallucination.
-Drift-checked, 95% paradox tolerance, 98% truth-lock.
+Prone to hallucination. - Drift-checked, 95% paradox tolerance, 98% truth-lock.
 
 
 Why Tri-Stack?
