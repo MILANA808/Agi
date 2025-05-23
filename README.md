@@ -223,6 +223,3 @@ Issuer      : screwball7605@aol.com (Robert Long – R-AGC Cert)
 > ▶️ Open an issue or shoot Robert a DM — we’ll get it in right away.
 
 ```
-
-This **preserves every file**, explains the **new PDF**, and layers in deep-dive references, all while keeping the flow lean and professional. Enjoy!
-```
